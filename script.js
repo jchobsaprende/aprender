@@ -14,7 +14,7 @@ function addTask() {
 
   // Botão para remover tarefa
   const removeButton = document.createElement('button');
-  removeButton.textContent = 'DEL';
+  removeButton.textContent = 'remover';
   removeButton.onclick = () => li.remove();
 
   li.appendChild(removeButton);
