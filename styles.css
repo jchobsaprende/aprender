@@ -104,7 +104,12 @@
       font-size: 18px;
       padding: 15px;
     }
-  
+    
+    .task-input {
+          width: 100%; /* Ocupa toda a largura */
+          padding: 10px; /* Ajuste de padding para garantir espaçamento */
+    }
+
     .task-input input {
       font-size: 14px;
       padding: 8px;
